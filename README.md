@@ -16,7 +16,7 @@ Then you can call the functions in your code</br>
 
 ## Classes
 The Result class is created to store double a, b of ax+b</br>
-The Program class is the main class where the functions are stored</br>
+The Program class is the class where all the functions are stored</br>
 
 ## EquationSolver.Program.CheckInput(string equ) > return bool
 Check if the input equation is in the right format with one equal sign and at least one variable</br>
