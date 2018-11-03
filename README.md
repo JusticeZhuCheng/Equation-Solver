@@ -42,7 +42,7 @@ Method to make the string like "ax" only or "b+ax" into the format of "ax+b"</br
 Get a,b from ax+b and return a,b in the format of class Result</br>
 
 ## EquationSolver.Program.Translate(string str) > return Result
-Translate the input string into the format of ax+b, return a,b in the format of class Result</br>
+Translate and calculate the input string into the format of ax+b, return a,b in the format of class Result</br>
 
 ## EquationSolver.Program.Calculate(string str1, string str2) > return string
 Return the answer by inputing both sides of the equal sign</br>
