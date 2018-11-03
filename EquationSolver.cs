@@ -1,4 +1,3 @@
-﻿using System;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +17,6 @@ namespace EquationSolver
      *  Finally get a1X + b1 = a2X + b2
      *  X = ((b2 - b1) / (a1 - a2))
      *  
-     *  Equation is passed as command-line argument
     */
         // create a new class to store the a,b
     public class Result
@@ -400,7 +398,8 @@ namespace EquationSolver
             }
             return newEqu;
         }
-
+        
+        //method to check the input format
         public static bool CheckInput(string equ)
         {
             int variableNum = 0;
@@ -443,6 +442,8 @@ namespace EquationSolver
             }
             return isRightInput;
         }
+        
+        //method to get the answer by inputing the whole equation
         public static string RunSolver(string equ)
         {
             string answer = "";
